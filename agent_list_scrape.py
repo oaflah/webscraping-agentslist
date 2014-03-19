@@ -18,8 +18,6 @@ BASE_URL = "http://www.stproperty.sg"
 BROWSER = webdriver.Firefox()
 
 def main():
-  
-  
 
   first_name_chars = get_char_from_args() or ["a"]
   
